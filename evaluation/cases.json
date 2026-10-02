@@ -1,0 +1,92 @@
+[
+    {
+        "id": 1,
+        "type": "normal",
+        "question": "Paketim şehir merkezindeki adresime verildikten sonra yaklaşık kaç iş gününde gelir?",
+        "expected_status": "answered",
+        "expected_contains": "1-3 iş günü",
+        "expected_version": 1
+    },
+    {
+        "id": 2,
+        "type": "normal",
+        "question": "Ürünümün üretim hatalarına karşı garanti süresi ne kadar?",
+        "expected_status": "answered",
+        "expected_contains": "2 yıl",
+        "expected_version": 1
+    },
+    {
+        "id": 3,
+        "type": "normal",
+        "question": "Telefon uygulamasında cihazı eşleştirirken istenen kod kaç haneli oluyor?",
+        "expected_status": "answered",
+        "expected_contains": "altı haneli",
+        "expected_version": 1
+    },
+    {
+        "id": 4,
+        "type": "normal",
+        "question": "Kartla ödeme yaparken 3D Secure doğrulaması gerekli mi?",
+        "expected_status": "answered",
+        "expected_contains": "zorunludur",
+        "expected_version": 1
+    },
+    {
+        "id": 5,
+        "type": "normal",
+        "question": "Yanlış şifreyi art arda girersem hesabım ne kadar süreyle kilitli kalır?",
+        "expected_status": "answered",
+        "expected_contains": "30 dakika",
+        "expected_version": 1
+    },
+    {
+        "id": 6,
+        "type": "normal",
+        "question": "Aynı alışverişte iki farklı indirim kuponunu birlikte kullanabilir miyim?",
+        "expected_status": "answered",
+        "expected_contains": "yalnızca bir kupon",
+        "expected_version": 1
+    },
+    {
+        "id": 7,
+        "type": "normal",
+        "question": "Kargo çıkmadan önce iptal ettiğim kartlı siparişin parası en geç ne zaman geri gelir?",
+        "expected_status": "answered",
+        "expected_contains": "1-3 iş günü",
+        "expected_version": 1
+    },
+    {
+        "id": 8,
+        "type": "unknown",
+        "question": "Ürünün suya dayanıklılık derecesi nedir?",
+        "expected_status": "insufficient_information"
+    },
+    {
+        "id": 9,
+        "type": "unknown",
+        "question": "Destek ekibine hafta sonu telefonla hangi saatlerde ulaşabilirim?",
+        "expected_status": "insufficient_information"
+    },
+    {
+        "id": 10,
+        "type": "unknown",
+        "question": "Cihazın kutudan çıkan batarya kapasitesi kaç mAh?",
+        "expected_status": "insufficient_information"
+    },
+    {
+        "id": 11,
+        "type": "conflict",
+        "question": "Teslim aldığım ürünü geri göndermek için kaç gün içinde başvuru yapmalıyım?",
+        "expected_status": "answered",
+        "expected_contains": "30 gün",
+        "expected_version": 2
+    },
+    {
+        "id": 12,
+        "type": "conflict",
+        "question": "İade işlemlerinde hangi prosedür geçerlidir ve iade süresi nedir?",
+        "expected_status": "answered",
+        "expected_contains": "30 gün",
+        "expected_version": 2
+    }
+]
