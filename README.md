@@ -141,6 +141,7 @@ Evaluation sırasında beklenen durum, cevap içeriği ve kaynak versiyonu API'n
 - Model tarafından döndürülen kaynaklar backend tarafında doğrulanır; geçerli bir kaynak olmadan başarılı cevap döndürülmez.
 - Chat modeli için `temperature` değeri `0.2` olarak ayarlanmıştır.
 - Proje küçük bir case study olduğu için vector index, Redis, queue, authentication ve UI eklenmemiştir.
+- macOS üzerinde, özellikle Apple Silicon sistemlerde, Ollama'nın Docker içerisindeki performansı native kuruluma göre daha düşük olabilir. Bu projede değerlendiren kişinin ek bir lokal kurulum yapmadan projeyi kolayca çalıştırabilmesi ve ortamın tekrar üretilebilir olması için Ollama, Docker Compose yapısına dahil edilmiştir. Daha yüksek lokal inference performansı gerektiğinde Ollama doğrudan host sistem üzerinde çalıştırılabilir.
 
 ## RAG Akışı
 
